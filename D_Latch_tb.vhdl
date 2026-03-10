@@ -38,7 +38,7 @@ end D_Latch_tb;
 architecture Behavioral of D_Latch_tb is
     component D_Latch
     Port ( D, CLK : in STD_LOGIC;
-           Q, Dummy : out STD_LOGIC);
+           Q : out STD_LOGIC);
 end component;
 
 signal D_tb, CLK_tb : STD_LOGIC;
