@@ -33,7 +33,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity D_Latch is
     Port ( D, CLK : in STD_LOGIC;
-           Q, Dummy : out STD_LOGIC);
+           Q : out STD_LOGIC);
 end D_Latch;
 
 architecture Behavioral of D_Latch is
@@ -43,8 +43,7 @@ state: process(D,CLK)
 begin
     if CLK = '1' then 
         Q <= D;
-    else
-        Dummy <= D;
+    
     end if;
 end process;
 end Behavioral;
