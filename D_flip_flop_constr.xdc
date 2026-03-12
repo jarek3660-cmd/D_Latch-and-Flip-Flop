@@ -4,4 +4,4 @@ set_property IOSTANDARD LVCMOS33 [get_ports Q]
 set_property PACKAGE_PIN J15 [get_ports CLK]
 set_property PACKAGE_PIN L16 [get_ports D]
 set_property PACKAGE_PIN H17 [get_ports Q]
-set_property CLOCK_DEDICATED_ROUTE FALSE (get_nets CLK_IBUF) 
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets CLK_IBUF] 
